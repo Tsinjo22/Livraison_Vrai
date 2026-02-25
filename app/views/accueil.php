@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon Projet</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <?php include 'header.php'; ?>
-    <h5>Hello world</h5>
 
-    <?php include 'footer.php'; ?>
-</body>
-</html>
+<header>
+    <div class="logo">
+        Gestion de Livraison
+    </div>
+
+    <div class="menu-center">
+        <a href="#">Livraison</a>
+        <a href="#">Colis</a>
+    </div>
+
+    <nav>
+        <a href="/">Accueil</a>
+    </nav>
+</header>
+<main>

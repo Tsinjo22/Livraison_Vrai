@@ -1,0 +1,33 @@
+Base 
+    Vehicule
+        -id
+        -num
+    Livreur
+        -id
+        -Nom
+    Zone
+        -id
+        -nom
+        -km
+    Colis
+        -id
+        -poids
+        -description
+    prix
+        -id_livraison
+        -coutRevient
+        -cffAchat
+        -Benefice
+
+    status
+        -id
+        -nom
+    Livraison
+        -id (num)
+        -idchaufffeur
+        -idVehicule
+        -depart
+        -Arrive
+        -idColis
+        -prix 
+        -idstatus

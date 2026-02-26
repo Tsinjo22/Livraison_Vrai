@@ -1,0 +1,43 @@
+
+Initialisation
+git init
+git add .
+git commit -m "Initialisation du projet"
+git branch -M main
+git remote add origin https://github.com/Tsinjo22/Livraison_Vrai.git
+git push -u origin main
+
+# Création immédiate de la branche de travail
+git checkout -b dev
+git push -u origin dev
+
+le binome recupere le projet
+git clone https://github.com/Tsinjo22/Livraison_Vrai.git
+cd Livraison_Vrai
+git checkout dev
+
+
+A chaque modification 
+git add .
+git commit -m "Explication de ce que j'ai changé"
+git push origin dev
+
+Recuperer
+git checkout dev
+git pull origin dev
+
+Conclusion  : tout est ok
+
+# 1. On s'assure que dev est parfait
+git checkout dev
+git pull origin dev
+
+# 2. On bascule sur main
+git checkout main
+git pull origin main
+
+# 3. On fusionne dev dans main
+git merge dev
+
+# 4. On envoie le résultat final sur GitHub
+git push origin main

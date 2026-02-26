@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
+
 <main>
-    <h1>Bienvenue sur la page d'accueil</h1>
+    <h1>Colis</h1>
 </main>
 <?php include 'footer.php'; ?>

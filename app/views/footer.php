@@ -1,5 +1,3 @@
-</main>
-
 <footer style="
     background-color: rgba(10, 31, 68, 0.85); 
     color: white; 

@@ -77,8 +77,8 @@ return [
 	//],
 
  	'database' => [
- 		'host'     => 'localhost',      // Database host (e.g., 'localhost', 'db.example.com')
- 		'dbname'   => '',   // Database name (e.g., 'flightphp')
+ 		'host'     => '127.0.0.1',      // Database host (e.g., 'localhost', 'db.example.com')
+ 		'dbname'   => 'livraison',   // Database name (e.g., 'flightphp')
  		'user'     => 'root',  // Database user (e.g., 'root')
  		'password' => '',  // Database password (nevmessageer commit real passwords)
 

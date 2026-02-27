@@ -14,4 +14,6 @@ $home = new HomeController();
 Flight::route('/', [$home, 'index']);
 Flight::route('/colis', [$home, 'colis']);
 
+
 // Middleware d'authentification global
+Flight::route('/status/@id', [$home, 'lsLivraison']);

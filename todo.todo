@@ -31,3 +31,7 @@ Base
         -idColis
         -prix 
         -idstatus
+
+Aficher la liste de status 
+    -chaque liste avait son lien qui porte leur id
+La liste de livraison avait un condition qui affiche leur table si le id du status= son id de status
